@@ -1,2 +1,14 @@
+[project]
+name = "memetradetest"
+version = "0.1.0"
+description = "Meme coin spot breakout trading dashboard"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "websockets",
+]
+
 [tool.vercel]
 entrypoint = "meme:app"
