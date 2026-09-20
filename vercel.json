@@ -1,11 +1,4 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "meme.py"
-    }
-  ],
   "functions": {
     "meme.py": {
       "maxDuration": 300
